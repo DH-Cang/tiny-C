@@ -1,5 +1,6 @@
 build
 *.o
+.vscode/
 
 
 # antlr4 

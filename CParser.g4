@@ -67,8 +67,8 @@ void doAfter() {}
 @parser::basevisitormembers {/* base visitor private declarations/members section */}
 @parser::basevisitordefinitions {/* base visitor definitions section */}
 
-// Actual grammar start.
-prog: expr EOF ;
+//Actual grammar start.
+prog: expr EOF;
 
 expr: expr (Star | Div) expr    # factor
     | expr (Plus | Minus) expr  # term

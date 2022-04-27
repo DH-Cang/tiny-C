@@ -56,3 +56,5 @@ Star: '*';
 Div: '/' ;
 OpenPar: '(';
 ClosePar: ')';
+
+ID: [a-z]+ ;
